@@ -1,1 +1,210 @@
 /* Add CSS styling here */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-image: url(https://media.giphy.com/media/UNHplVba2fweBfkLHv/giphy.gif);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+li {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 24px;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+footer {
+    background-color: black;
+    margin: 50px;
+}
+
+.me {
+    background-image: url(https://media.giphy.com/media/TN0RglZLphW5jRLQeH/giphy.gif);
+    margin: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: 45%;
+}
+
+.gallery {
+    flex-direction: row;
+}
+
+#home:visited {
+    color: red;
+}
+
+#about:visited {
+    color: red;
+}
+
+#projects:visited {
+    color: red;
+}
+
+#contact:visited {
+    color: red;
+}
+
+#mine {
+    border: solid 6px white;
+}
+
+#metwo {
+    border: solid 6px white;
+}
