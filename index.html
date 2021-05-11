@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href=style/index.css rel="stylesheet" />
 </head>
+
 <body>
-    
+    <div class=nav>
+        <h1>DeAnna Dale</h1>
+    </div>
+    <div>
+        <nav class=navi>
+            <ul>
+                <li id=home>Home</li>
+                <li id=about>
+                    <a href="about.html">About</li>
+                    <li id=projects>
+                        <a href="projects.html">Projects</li>
+                    <li id=contact>
+                        <a href="contact.html">Contact</li>
+                </ul>
+            </nav>
+    </div>
+  
+  <div class=me>
+  <h2>About Me</h2>
+    <p> Hello, I'm DeAnna. I'm a web developer who studied at Lambda School. Lambda School is a fully immersive, hands on, online program with some of the best instructors and staff in the world. I was able to learn so much and the experience has been so much fun. During my time spent at Lambda I was able to learn HTML, CSS, and Javascript and so much more. I've learned about Github, what the job market is like for a developer, and how to form connections. Lambda has offered me a wealth of knowledge that reaches far beyond any other educational program I've ever been in. I am beyond grateful for the opportunity. </p>
+  </div>
+
+    <div class=myprojects>
+            <button id=mine><a href="projects.html">Click Here To See My Projects</button>
+              <a target="_blank" href=""
+              
+    </div>
+
+    <div class=contact>
+            <button id=metwo><a href="contact.html">Click Here For Contact Information</button>
+    </div>
+    <Footer><a href="https://www.linkedin.com/in/deanna-dale/">Linked In Profile</a></Footer>
+
+
 </body>
+
 </html>
+
+/*tablet*/ @media(max-width:500px){ nav: flex-direction: column; align-items: center; } /*phone*/ @media(max-width:300px){nav: flex-direction: column; align-items: center;}
