@@ -182,7 +182,10 @@ button {
 }
 
 .gallery {
+    display: flex;
     flex-direction: row;
+    margin: 15%;
+    justify-content: center;
 }
 
 #home:visited {
